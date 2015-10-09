@@ -1,0 +1,87 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800&subset=cyrillic,latin);
+
+html, body {
+  font-family: 'Open Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  height: 0;
+  min-height: 100%;
+	font-family: sans-serif;
+	display: -webkit-flex;
+	display: flex;
+	flex-direction: column;	
+}
+
+header {
+	width: 100%;
+	display: flex;
+	align-self: flex-start;
+	background-color: cornflowerblue;
+	height: 150px;
+}
+
+.tests-nav {
+	display: flex;
+	flex-direction: column;	
+	align-self: center;
+	height: 300px;
+	width: 60%;
+	margin-top: -30px;
+  }
+
+.first-row {
+	display: flex;
+	flex: 1;
+	color: white;
+}
+
+.first-row a {
+	text-decoration: none;
+	color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.second-row {
+	display: flex;
+	flex: 1;
+	flex-direction: row;
+}
+
+.second-row a {
+	color: white;
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.f-row:first-child {
+	display: flex;
+	flex: 1;
+	background-color: aqua;
+}
+
+.f-row:nth-child(2) {
+	display: flex;
+	flex: 1;
+	background-color: deeppink;
+}
+.f-row:nth-child(3) {
+	display: flex;
+	flex: 1;
+	background-color: firebrick;
+}
+
+.s-row:first-child {
+	display: flex;
+	flex: 1;
+	background-color: forestgreen;
+}
+
+.s-row:nth-child(2) {
+	display: flex;
+	flex: 1;
+	background-color:darkgoldenrod;
+}
