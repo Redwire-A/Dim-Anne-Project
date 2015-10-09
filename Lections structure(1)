@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <link rel="stylesheet" href="css/lectionsstyle.css">
+</head>
+<body>
+<main>
+	
+<h1> Lections</h1>
+<nav class="lections-list">
+	<div class="line">
+	<div class="circle"></div>
+	<a href="#" class=""> Вступ до спеціальності </a>
+	</div>
+	
+	<div class="line">
+	<div class="circle"></div>
+	<a href="#" class=""> Вступ до спеціальності </a>
+	</div>
+	
+	<div class="line">
+	<div class="circle"></div>
+	<a href="#" class=""> Вступ до спеціальності </a>
+	</div>
+	
+	<div class="line">
+	<div class="circle"></div>
+	<a href="#" class=""> Вступ до спеціальності </a>
+	</div>
+	
+	<div class="line">
+	<div class="circle"></div>
+	<a href="#" class=""> Вступ до спеціальності </a>
+	</div>
+	
+	<div class="line">
+	<div class="circle"></div>
+	<a href="#" class=""> Вступ до спеціальності </a>
+	</div>
+	
+	<div class="line">
+	<div class="circle"></div>
+	<a href="#" class=""> Вступ до спеціальності </a>
+	</div>
+	
+	<div class="line">
+	<div class="circle"></div>
+	<a href="#" class=""> Вступ до спеціальності </a>
+	</div>
+	
+
+</nav>
+</main>		
+
+</body>
+</html>
