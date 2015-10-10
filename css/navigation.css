@@ -1,0 +1,74 @@
+/* Navigation page styles */
+.main-nav {
+  display: flex;
+  width: 1000px;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 auto;
+}
+
+  .main-nav a {
+    color: white;
+  }
+
+  .first-row {
+    display: flex;
+    -webkit-flex-wrap: wrap;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    -webkit-flex: 4;
+        -ms-flex: 4;
+            flex: 4;
+    background: rgb(0, 0, 0);
+  }
+
+    .app-programming-link {
+      -webkit-flex: 4;
+          -ms-flex: 4;
+              flex: 4;
+      background: rgb(68, 108, 179);
+    }
+
+    .laboratory-link {
+      -webkit-flex: 6;
+          -ms-flex: 6;
+              flex: 6;
+      background: rgb(135, 211, 124);
+    }
+
+  .second-row {
+    -webkit-flex: 7;
+        -ms-flex: 7;
+            flex: 7;
+    background: rgb(50, 50, 50);
+    display: flex;
+  }
+    .lectures-link {
+      -webkit-flex: 5;
+          -ms-flex: 5;
+              flex: 5;
+      background: rgb(243, 156, 18);
+    }
+
+  .second-row .first-col {
+    -webkit-flex: 5;
+        -ms-flex: 5;
+            flex: 5;
+    display: flex;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+    .materials {
+      background: rgb(154, 18, 179);
+    }
+    .test-quest-link {
+      background: rgb(0, 0, 0);
+    }
+
+    .second-row .first-col > a {
+      -webkit-flex: 1;
+          -ms-flex: 1;
+              flex: 1;
+    }

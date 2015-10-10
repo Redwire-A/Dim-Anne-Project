@@ -1,0 +1,54 @@
+/* Lablist page style */
+.lablist-header {
+  display: flex;
+  align-self: flex-start;
+  width: 100%;
+  height: 80px;
+  background-color: cornflowerblue;
+}
+
+.lablist {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  min-height: 90%;
+  margin: -20px auto;
+}
+
+.lab {
+  display: flex;
+  flex-direction: row;
+}
+
+.lab a {
+  text-decoration: none;
+  padding: 20px;
+  width: 100%;
+  z-index: 1;
+  box-sizing: border-box; 
+  color: white;
+  margin-left: 20px;
+}
+
+.lab:nth-child(3n+0) {
+  background-color:orange;
+}
+
+.lab:nth-child(3n+1) {
+  background-color: darkorange;
+}
+
+.lab:nth-child(3n+2) {
+  background-color: #f46904;
+}
+
+.circle {
+  display: flex;
+  width: 40px; height: 40px;
+  border-radius: 50%;
+  background: yellowgreen;
+  margin-left: -90px;
+  z-index: 0;
+  align-self: center;
+}
